@@ -1,0 +1,40 @@
+*{
+        list-style: none;
+        border:0;
+        padding: 0;
+}
+
+footer{
+        width: 90%;
+        position: fixed;
+        bottom: 0;
+        color: #fff;
+}
+
+.input{
+        width: 25%;
+        padding: 15px;
+}
+
+.list{
+        padding: 20px 0;
+        width: 100%;
+}
+
+.TextBox,#list-container{
+        clear:both;
+        display: none;
+}
+
+@media screen and (max-width: 768px){
+        
+        .SaveMe{
+                font-size: 10px;
+                padding: 5px;
+        }
+        
+        .input{
+                font-size: 10px;
+                padding: 5px;
+        }
+}
